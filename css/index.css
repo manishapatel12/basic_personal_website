@@ -3,27 +3,105 @@ body {
 	font-family: "Times New Roman", Times, serif;
 	background-color: #E8E8E8;
 	padding: 0px;
-	margin: 10px;
-}
-
-h3 {
-	font-style: italic;
+	margin: 50px;
 }
 
 ul {
     list-style-type: square;
 }
 
-.about {
-	/*text-decoration: underline*/;
-	font-style: italic;
+h1 {
+	margin-top: -15px;
 }
 
-#main {
+h3 {
+    font-family: "San Serif";
+}
+
+.about {
+	font-style: normal;
+	padding: 10px; 
+}
+
+.main {
 	text-align: center;
 }
 
 hr {
-	 border-width: 1px;
-	 border-style: groove;
+	border-width: 1px;
+	border-style: groove;
+}
+
+a:active {
+    font-style: italic;
+}
+
+a:visited {
+    font-style: italic;
+}
+
+.image {
+	text-align: center;
+}
+
+.image img {
+	border: 1px solid black;
+	width: 75%;
+	padding: 5px;
+
+
+}
+
+.top_bottom_border {
+	border-width: 3px;
+	border-style: solid;
+	border-color: black;
+}
+
+.job_title {
+	font-style: italic;
+}
+.job_company {
+	font-weight: normal;
+}
+
+.per{
+	position:relative;
+}
+
+.perDesc{
+	font-size: 30px;
+}
+
+.perImage{
+	width:50%;
+	float:right;
+}
+
+.perImage img{
+	width: 35%;
+	margin: 0 0 10px 10px;
+}
+
+.perbox{
+	box-sizing: border-box;
+    width: 50%;    
+    float: left;
+}
+
+.perbox img{
+	border: 1px solid;
+	width: 50%;
+	padding : 5px;
+	margin-left: 35px;
+  	margin-bottom: 10px;
+  	margin-top: 5px;
+}
+
+.socialmedia{
+	text-decoration: underline;
+}
+
+#bottom_pad {
+	margin-bottom: 65px;
 }

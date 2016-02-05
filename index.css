@@ -3,7 +3,7 @@ body {
 	font-family: "Times New Roman", Times, serif;
 	background-color: #E8E8E8;
 	padding: 0px;
-	margin: 10px;
+	margin: 30px;
 }
 
 h3 {
@@ -15,8 +15,7 @@ ul {
 }
 
 .about {
-	/*text-decoration: underline*/;
-	font-style: italic;
+	font-style: normal;
 }
 
 #main {
@@ -24,6 +23,24 @@ ul {
 }
 
 hr {
-	 border-width: 1px;
-	 border-style: groove;
+	border-width: 1px;
+	border-style: groove;
+}
+
+a:active {
+    font-style: normal;
+}
+
+a:visited {
+    font-style: italic;
+}
+
+img {
+	border: 1px;
+}
+
+.top_bottom_border {
+	border-width: 3px;
+	border-style: solid;
+	border-color: black;
 }
