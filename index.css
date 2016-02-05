@@ -1,0 +1,29 @@
+body {
+	font-color: black;
+	font-family: "Times New Roman", Times, serif;
+	background-color: #E8E8E8;
+	padding: 0px;
+	margin: 10px;
+}
+
+h3 {
+	font-style: italic;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.about {
+	text-decoration: underline;
+	font-style: italic;
+}
+
+#main {
+	text-align: center;
+}
+
+hr {
+	 border-width: 1px;
+	 border-style: groove;
+}
