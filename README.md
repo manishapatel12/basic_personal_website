@@ -1,1 +1,3 @@
-#This is sample personal website
+This is sample personal website contains
+	- About Me
+	- Portfolio
