@@ -54,12 +54,6 @@ a:visited {
 
 }
 
-.top_bottom_border {
-	border-width: 3px;
-	border-style: solid;
-	border-color: #000000;
-}
-
 .job_title {
 	font-style: italic;
 }
@@ -109,7 +103,19 @@ a:visited {
   	margin-top: 5px;
 }
 
+.clear_both{
+	clear:both;
+}
 .container{
 	border-top: 2px solid #909090;
 	border-bottom: 2px solid #909090;
+}
+
+.about_container {
+	border-top: 4px solid #000000;
+	border-bottom: 4px solid #000000;
+}
+
+.sub_heading {
+	font-family:Lucida Console;
 }
